@@ -8,13 +8,12 @@ body {
     justify-content: space-between;
     padding: 8px;
     background: #1f2937;
+    align-items: center;
 }
 
 .logo{
     color: #f9faf8;
     font-size: 24px;
-    font-weight: 800;
-    font-style: extra-bold;
     margin-left: 50px;
 }
 
@@ -28,6 +27,7 @@ ul{
     list-style-type: none;
     display: flex;
     margin: 0;
+    margin-left: 30px;
     padding: 0;
     gap: 16px;
 }
@@ -36,4 +36,59 @@ ul{
     display: flex;
     align-items: center;
     gap: 16px;
+}
+
+
+.header2{
+    display: flex;
+    padding: 90px;
+    background: #1f2937;
+    justify-content: space-around;
+}
+
+.mainpart{
+    display: flex;
+    padding: 12px;
+    gap: 20px;;
+    flex-direction: column;
+    flex-basis: 400px;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.maintext{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bold;
+    margin: 0;
+    font-family: "Roboto", arial;
+}
+
+.mainsubtxt{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-align: left;
+    margin-top: 20px;
+}
+
+button{
+    font-size: 12px;
+    background-color: #3882F6;
+    color: #f9faf8;
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    padding: 10px;
+    font-family: 'Roboto', Arial;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.mainimg img{
+    width: 500px;
+    height: 350px;
+    border: #3882F6;
+    border-radius: 12px;
 }
