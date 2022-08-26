@@ -1,7 +1,18 @@
 body {
     margin: 0;
-    font-family: "Roboto", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    background-color: #FFFFF;
+    padding: 0;
+    text-aling: center;
 }
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+    /*Navbar*/
 
 .header {
     display: flex;
@@ -38,6 +49,7 @@ ul{
     gap: 16px;
 }
 
+    /*Hero Part*/
 
 .header2{
     display: flex;
@@ -92,3 +104,35 @@ button{
     border: #3882F6;
     border-radius: 12px;
 }
+
+    /*Content*/
+
+.content{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blocks{
+    text-align: center;
+    display:flex;
+}
+
+.content img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 12px;
+    border-color: #3882F6;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+}
+
+h2{
+    display: block;
+    font-size: 24px;
+    margin: 20px 0;
+    font-weight: bold;
+    text-align: center;
+}
+
